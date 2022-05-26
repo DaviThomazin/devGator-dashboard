@@ -1,0 +1,56 @@
+@import "css/header.css";
+@import "css/footer.css";
+
+:root {
+  --color-bg: #36393a;
+  --color-bg-container: #424546;
+  --color-search-bar: #454b4e;
+  --font-color-main: #7c8c94;
+  --font-color-title: #acaeae;
+  --color-red: #c20808;
+  --color-red2: #ec0d0d;
+  --color-green: #0db95c;
+}
+
+body {
+  margin: 0px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--font-color-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+nav,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  box-sizing: border-box;
+}

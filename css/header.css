@@ -1,0 +1,85 @@
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.nav-list li a {
+  font-size: 1rem;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 100%;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+}
+
+.search-bar input {
+  margin-left: 8px;
+  height: 30px;
+  width: 350px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  color: var(--color-main);
+}
+
+::placeholder {
+  color: var(--color-main);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-search-bar);
+  padding-left: 16px;
+  margin-left: 50px;
+  max-width: 350px;
+  border-radius: 50px;
+}
+
+.user-area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-area span {
+  font-size: 0.625rem;
+  max-width: 11ch;
+  text-align: right;
+}
+
+.user-area span strong {
+  color: #bbbdbe;
+}
