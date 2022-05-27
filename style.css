@@ -1,6 +1,7 @@
 @import "css/header.css";
 @import "css/aside.css";
 @import "css/footer.css";
+@import "css/dashboard.css";
 
 :root {
   --color-bg: #36393a;
@@ -54,9 +55,4 @@ img {
   /* padding-left: 20px; */
   /* padding-right: 20px; */
   box-sizing: border-box;
-}
-
-.dashboard-grid {
-  padding-left: 30px;
-  padding-right: 30px;
 }

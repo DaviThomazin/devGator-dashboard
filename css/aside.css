@@ -1,5 +1,6 @@
 .aside-bg {
   padding-left: 30px;
+  padding-right: 54px;
 }
 
 .aside-menu {
@@ -42,4 +43,17 @@
 
 .logout:hover {
   background-color: var(--color-search-bar);
+}
+
+.messages::after {
+  content: "22";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  width: 22px;
+  background-color: var(--color-green);
+  color: #ffffff;
+  font-size: 0.75rem;
+  border-radius: 5px;
 }

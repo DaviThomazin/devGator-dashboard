@@ -1,0 +1,18 @@
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.footer-list li {
+  text-decoration: underline;
+}
+
+.footer-list li:hover a {
+  color: #ffffff;
+}
