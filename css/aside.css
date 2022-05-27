@@ -1,0 +1,45 @@
+.aside-bg {
+  padding-left: 30px;
+}
+
+.aside-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+.aside-menu li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 32px;
+  font-size: 1rem;
+  color: var(--font-color-title);
+}
+
+.aside-menu li:first-child a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.aside-menu li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.logout {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 135px;
+  padding: 9px 25px 9px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: var(--color-bg-container);
+  color: var(--color-red);
+  transition: 0.4s;
+}
+
+.logout:hover {
+  background-color: var(--color-search-bar);
+}
