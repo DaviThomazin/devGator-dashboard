@@ -1,6 +1,6 @@
 .aside-bg {
   padding-left: 30px;
-  padding-right: 54px;
+  padding-right: 44px;
 }
 
 .aside-menu {
@@ -54,6 +54,6 @@
   width: 22px;
   background-color: var(--color-green);
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   border-radius: 5px;
 }

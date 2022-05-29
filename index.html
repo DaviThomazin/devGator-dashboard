@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,8 +19,8 @@
     <title>devGator - Dashboard</title>
   </head>
   <body>
-    <section class="header-bg">
-      <header class="header container">
+    <section class="header-bg container">
+      <header class="header">
         <nav class="nav-menu">
           <a href="#">
             <img src="imgs/svg/devGator-logo.svg" alt="Logo devGator" />
@@ -54,7 +54,7 @@
         </nav>
       </header>
     </section>
-    <section class="dashboard-grid">
+    <section class="dashboard-grid container">
       <aside class="aside-bg">
         <ul class="aside-menu">
           <li>
@@ -163,16 +163,45 @@
       </div>
 
       <div class="customers container-2">
-        <span>customers</span>
+        <h2>Customers</h2>
+        <span class="numero-customers">67,455</span>
+        <span class="porcentagem-cust">3,76%</span>
+        <p>Since last week</p>
+        <div class="cust-img">
+          <img src="imgs/svg/Customers-icon.svg" alt="" />
+        </div>
       </div>
       <div class="total-orders container-2">
-        <span>total-orders</span>
+        <h2>Total Orders</h2>
+        <span class="numero-orders">5,765</span>
+        <span class="porcentagem-orders">1,25%</span>
+        <p>Since last week</p>
+        <div class="orde-img">
+          <img src="imgs/svg/Orders-icon.svg" alt="" />
+        </div>
       </div>
       <div class="growth container-2">
-        <span>growth</span>
+        <div class="growth-container1">
+          <h2>Growth</h2>
+          <div class="grow-img">
+            <img src="imgs/svg/Growth-icon.svg" alt="" />
+          </div>
+        </div>
+        <div class="growth-container2">
+          <span class="numero-growth">+39.60%</span>
+          <span class="data-growth">Since last month</span>
+          <div class="line1"></div>
+          <p>Last month:</p>
+        </div>
       </div>
       <div class="product-sales container-2">
-        <span>product-sales</span>
+        <h2>Product Sales</h2>
+        <div class="prod-sales-img">
+          <img src="imgs/svg/graphic-example.svg" alt="" />
+        </div>
+        <span class="products-sold">Products sold: 288,985</span>
+        <br />
+        <span class="botao-products-sold">More details</span>
       </div>
       <div class="orders container-2">
         <span>orders</span>
