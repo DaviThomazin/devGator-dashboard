@@ -10,7 +10,7 @@
   background-color: var(--color-bg-container);
   border-radius: 20px;
   box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.25);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* * Recent Activity */
@@ -107,7 +107,7 @@
 
 .porcentagem-cust::before {
   content: "";
-  background: url(./imgs/svg/green-arrow.svg) no-repeat;
+  background: url(../imgs/svg/green-arrow.svg) no-repeat;
   height: 14px;
   width: 14px;
   align-self: center;
@@ -170,7 +170,7 @@
 
 .porcentagem-orders::before {
   content: "";
-  background: url(./imgs/svg/red-arrow.svg) no-repeat;
+  background: url(../imgs/svg/red-arrow.svg) no-repeat;
   height: 14px;
   width: 14px;
   align-self: center;
@@ -340,7 +340,7 @@
 
 .filter-orders::after {
   content: "";
-  background-image: url(./imgs/svg/more-icon-orders.svg);
+  background-image: url(../imgs/svg/more-icon-orders.svg);
   margin-top: 2px;
   height: 6px;
   width: 10px;
@@ -512,4 +512,197 @@
 
 .graphics-info {
   grid-column: 2 / 7;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.total-sales {
+  display: flex;
+  gap: 25px;
+  padding-top: 26px;
+  align-self: center;
+  justify-content: center;
+}
+
+.total-sales::after {
+  content: "";
+  display: flex;
+  width: 1px;
+  height: auto;
+  background-color: #5a6063;
+}
+
+.total-sales img {
+  width: 160px;
+  height: 160px;
+}
+
+.total-sales-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.total-sales-info h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--font-color-main);
+}
+
+.total-sales-info span {
+  display: flex;
+  font-size: 0.75rem;
+  color: var(--font-color-title);
+  gap: 5px;
+  align-items: center;
+}
+
+.c-r::before {
+  content: "";
+  display: flex;
+  background-color: #c22b4f;
+  width: 10px;
+  height: 10px;
+}
+
+.c-b::before {
+  content: "";
+  display: flex;
+  background-color: #2b5ec2;
+  width: 10px;
+  height: 10px;
+}
+
+.c-g::before {
+  content: "";
+  display: flex;
+  background-color: #0db95c;
+  width: 10px;
+  height: 10px;
+}
+
+.c-black::before {
+  content: "";
+  display: flex;
+  background-color: #36393a;
+  width: 10px;
+  height: 10px;
+}
+
+.project-status {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  gap: 25px;
+  padding-top: 26px;
+  align-self: center;
+  justify-content: center;
+}
+
+.project-status::after {
+  content: "";
+  display: flex;
+  width: 1px;
+  height: auto;
+  background-color: #5a6063;
+}
+
+.project-status img {
+  width: 160px;
+  height: 160px;
+}
+
+.project-status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.project-status-info h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--font-color-main);
+}
+
+.project-status-info span {
+  display: flex;
+  font-size: 0.75rem;
+  color: var(--font-color-title);
+  gap: 5px;
+  align-items: center;
+}
+
+.social-media-traffic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-column: 3;
+  grid-row: 1;
+  gap: 25px;
+  padding-top: 26px;
+  padding-right: 20px;
+  align-content: center;
+}
+
+.social-media-traffic h2 {
+  grid-column: 1 / 4;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--font-color-main);
+  text-align: center;
+}
+
+.s-m-t-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-line1 {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+}
+
+.info-line-title {
+  font-size: 1.125rem;
+  color: var(--font-color-main);
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.info-line1 span {
+  font-size: 0.875rem;
+  font-weight: 300;
+  gap: 8px;
+  color: var(--font-color-title);
+  text-align: center;
+}
+
+.info-line2 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.info-line2 span {
+  font-size: 0.875rem;
+  font-weight: 300;
+  gap: 8px;
+  color: #ffffff;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.info-line-graphic {
+  grid-column: 3;
+  grid-row: 2;
+  padding-top: 19px;
+}
+
+.info-line-graphic img {
+  margin-top: 20px;
+  padding-bottom: 2px;
 }
