@@ -456,7 +456,7 @@
 }
 
 .info-category-container span {
-  max-width: 19ch;
+  max-width: 18ch;
   align-self: flex-start;
 }
 
@@ -506,6 +506,15 @@
   font-size: 0.75rem;
   color: #69767b;
   align-self: center;
+}
+
+.additional-info1,
+.additional-info3 {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.additional-info2 {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* * Graphics Info */
